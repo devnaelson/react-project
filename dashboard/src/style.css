@@ -1,0 +1,152 @@
+body {
+  background: #f7f7f7 !important;
+}
+
+.Header {
+  background-color: #0b7789;
+
+}
+
+.Header>div>div:nth-child(2) {
+  border-bottom: solid 3px #045260;
+}
+
+.Footer {
+  background-color: #0b7789;
+  height: 70px;
+}
+
+.Footer>div {
+  line-height: 80px;
+  float: right;
+  color: white;
+}
+
+.Header>div {
+  line-height: 80px;
+}
+
+.companyLogo {
+  margin-left: 10px;
+}
+
+.header-btn-trigger-menu {
+  float: right;
+}
+
+.header-btn-trigger-menu>ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0;
+  padding: 0 0 0;
+}
+
+.header-btn-trigger-menu>ul>li {
+  list-style: none;
+  width: 50px;
+  text-align: center !important;
+}
+
+.header-btn-trigger-menu>ul>li:hover {
+  cursor: pointer;
+}
+
+.header-btn-trigger-menu>ul>li:nth-child(1) {
+  border-left: 1px solid rgba(255, 255, 255, 0.549);
+}
+
+.header-btn-trigger-menu>ul>li:nth-child(2) {
+  border-left: 1px solid rgba(255, 255, 255, 0.549);
+}
+
+.header-btn-trigger-menu>ul>li:nth-child(3) {
+  border-left: 1px solid rgba(255, 255, 255, 0.549);
+}
+
+.header-btn-trigger-menu>ul>li>svg {
+  font-size: 20px;
+  color: white;
+}
+
+.header-btn-trigger-menu>ul>li>svg:hover {
+  font-size: 20px;
+  color: rgb(154, 153, 153);
+}
+
+#sidebar-ajustment {
+  padding: 0 0 0 !important;
+  margin: 0 0 0 I !important;
+}
+
+.menu-sidebar {
+  text-align: center;
+
+}
+
+.menu-sidebar>ul {
+  text-align: justify;
+  word-spacing: -2px !important;
+  list-style: none;
+  padding: 0 0 0;
+  padding: 0 0 0;
+  font-size: 14px;
+}
+
+.menu-sidebar>ul>li {
+
+  padding: 10px;
+  line-height: 30px;
+  background-color: #f7f7f7;
+  border-bottom: solid 1px rgb(217, 220, 217);
+  border-left: solid 5px #0b768900;
+}
+
+.menu-sidebar>ul>li>a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu-sidebar>ul>li>.subm>li>a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.menu-sidebar>ul>li:hover {
+  border-left: solid 5px #0b7789;
+}
+
+.profile-sideBar{
+  background-color: #0b7789;
+  color: white;
+  border-bottom: solid 3px #045260;
+  border-right: solid 3px #045260;
+}
+.profile-sideBar>div>svg {
+  font-size: 80px;
+}
+
+.profile-sideBar>div>svg {
+  font-size: 80px;
+}
+
+.menu-main>li>ul>li {
+  list-style: none;
+  display: none;
+}
+
+.menu-main>li:hover ul>li {
+  list-style: none;
+  display: inline;
+}
+
+.menu-main>li>ul {
+  padding: 0 0 0;
+  line-height: 30px;
+}
+
+.menu-main>li>ul>li {
+  padding: 10px;
+  line-height: 30px;
+  width: 100%;
+}
