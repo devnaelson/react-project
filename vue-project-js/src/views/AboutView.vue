@@ -1,3 +1,14 @@
+<script setup>
+import ComponentA from '../components/ComponentA.vue'
+import ComponentB from '../components/ComponentB.vue'
+</script>
+
+
+<template>
+  <ComponentB/>
+</template>
+
+
 <template>
   <div class="about">
     <h1>{{ title }} {{ $route.params.id }} </h1><br>
@@ -17,6 +28,7 @@ export default {
   methods: {
     clickBtn() {
       console.log(this.$refs.bug.value)
+      this.$refs['bug'].class.add("asds")
     }
   }
 }
