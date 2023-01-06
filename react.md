@@ -1,0 +1,1 @@
+- Contexto em React, passa dados atraves dos components.
